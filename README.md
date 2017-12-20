@@ -1,2 +1,1 @@
-# flippy
-payment integration
+# fstackpay - cryptocurrency payment platform

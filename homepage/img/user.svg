@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>F376CE9E-4F13-423B-A1CE-D0BAD9B52F32</title>
+    <desc>Created with sketchtool.</desc>
+    <defs/>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="icon/features/client-portal/idle" stroke="#663399" stroke-width="2">
+            <path d="M23,12 C23,18.0742 18.0742,23 12,23 C5.9258,23 1,18.0742 1,12 C1,5.9258 5.9258,1 12,1 C18.0742,1 23,5.9258 23,12 L23,12 Z" id="Stroke-869" fill="#C9B7DB"/>
+            <path d="M16.4,9.8 C16.4,12.231 14.431,14.2 12,14.2 C9.569,14.2 7.6,12.231 7.6,9.8 C7.6,7.369 9.569,5.4 12,5.4 C14.431,5.4 16.4,7.369 16.4,9.8 L16.4,9.8 Z" id="Stroke-871" fill="#FFFFFF"/>
+            <path d="M12,23 C15.0338,23 17.7816,21.7702 19.7704,19.7836 C18.6572,16.543 15.619,14.2 12,14.2 C8.381,14.2 5.3428,16.543 4.2296,19.7836 C6.2184,21.7702 8.9662,23 12,23 L12,23 Z" id="Stroke-873" fill="#FFFFFF"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test onlcick</title>
+</head>
+<body>
+	<h1 id="h1id">debbie login</h1>
+	<button onclick="changeText()">switch text</button>
+</body>
+<script type="text/javascript">
+	function changeText() {
+	  var demo = document.getElementById("h1id");
+	  if (demo.innerHTML === "debbie login") {
+	   		demo.innerHTML = "Debbie registration";
+	  }
+	   else if (demo.innerHTML == "Debbie registration")  {
+	    demo.innerHTML = "debbie login";
+	  }
+	   else{
+	  		demo.innerHTML = "debbie login";
+	  }
+	}
+</script>
+</html>
