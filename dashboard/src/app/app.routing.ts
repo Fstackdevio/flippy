@@ -15,6 +15,9 @@ export const AppRoutes: Routes = [{
   }, {
     path: 'components',
     loadChildren: './components/components.module#ComponentsModule'
+  },{
+    path: 'Service',
+    loadChildren: './services/service.module#ServiceModule'
   }, {
     path: 'icons',
     loadChildren: './icons/icons.module#IconsModule'
