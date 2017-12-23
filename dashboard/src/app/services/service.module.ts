@@ -8,8 +8,8 @@ import { ServiceComponent } from './service.component';
 import { ServiceRoutes } from './service.routing';
 
 @NgModule({
-  imports: [CommonModule, RouterModule.forChild(DashboardRoutes), NgxChartsModule],
-  declarations: [DashboardComponent]
+  imports: [CommonModule, RouterModule.forChild(ServiceRoutes), NgxChartsModule],
+  declarations: [ServiceComponent]
 })
 
 export class ServiceModule {}

@@ -28,8 +28,52 @@ const MENUITEMS = [
     icon: 'basic-accelerator'
   },
   {
+    state: 'ApiService',
+    name: 'API SERVICES',
+    type: 'link',
+    icon: 'basic-paperplane'
+  },
+  {
+    state: 'Service',
+    name: 'SERVICES',
+    type: 'link',
+    icon: 'basic-paperplane'
+  },
+  {
     state: 'email',
-    name: 'EMAIL',
+    name: 'MESSAGES',
+    type: 'link',
+    icon: 'basic-paperplane'
+  },
+  {
+    state: 'tutorials',
+    name: 'INGEGRATION HELP',
+    type: 'sub',
+    icon: 'basic-webpage-multiple',
+    badge: [
+      {
+        type: 'success',
+        value: '5'
+      }
+    ],
+    children: [
+      {
+        state: 'python',
+        name: 'PYTHON'
+      },
+      {
+        state: 'php',
+        name: 'PHP'
+      },
+      {
+        state: 'javascript',
+        name: 'JAVASCRIPT'
+      },
+    ]
+  },
+  {
+    state: 'settings',
+    name: 'SETTINGS',
     type: 'link',
     icon: 'basic-paperplane'
   },
