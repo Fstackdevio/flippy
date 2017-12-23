@@ -20,7 +20,7 @@ export const AppRoutes: Routes = [{
     loadChildren: './services/service.module#ServiceModule'
   },{
     path: 'ApiService',
-    loadChildren: './api-services/apiservices.module#ApiServicesModule'
+    loadChildren: './apiservices/apiservices.module#ApiServicesModule'
   }, {
     path: 'icons',
     loadChildren: './icons/icons.module#IconsModule'

@@ -7,7 +7,7 @@ import {
 } from '../shared/chartData';
 
 @Component({
-  selector: 'app-apiservice',
+  selector: 'app-apiservices',
   templateUrl: './apiservices.component.html',
   styleUrls: ['./apiservices.component.scss']
 })
