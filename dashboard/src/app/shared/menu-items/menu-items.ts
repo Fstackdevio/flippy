@@ -40,10 +40,10 @@ const MENUITEMS = [
     icon: 'basic-paperplane'
   },
   {
-    state: 'email',
+    state: 'inbox',
     name: 'MESSAGES',
     type: 'link',
-    icon: 'basic-paperplane'
+    icon: 'basic-spread-text-bookmark'
   },
   {
     state: 'tutorials',
@@ -72,10 +72,10 @@ const MENUITEMS = [
     ]
   },
   {
-    state: 'settings',
+    state: 'Settings',
     name: 'SETTINGS',
     type: 'link',
-    icon: 'basic-paperplane'
+    icon: 'basic-postcard'
   },
   {
     state: 'components',

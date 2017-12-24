@@ -10,7 +10,7 @@ export const AppRoutes: Routes = [{
     path: '',
     loadChildren: './dashboard/dashboard.module#DashboardModule'
   }, {
-    path: 'email',
+    path: 'inbox',
     loadChildren: './email/email.module#EmailModule'
   }, {
     path: 'components',
@@ -21,7 +21,10 @@ export const AppRoutes: Routes = [{
   },{
     path: 'ApiService',
     loadChildren: './apiservices/apiservices.module#ApiServicesModule'
-  }, {
+  },{
+    path: 'Settings',
+    loadChildren: './settings/settings.module#SettingsModule'
+  },{
     path: 'icons',
     loadChildren: './icons/icons.module#IconsModule'
   }, {
