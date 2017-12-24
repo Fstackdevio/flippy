@@ -22,10 +22,21 @@ export interface Menu {
 
 const MENUITEMS = [
   {
+    state: '/getstarted',
+    name: 'GET STARTED',
+    type: 'link',
+    icon: 'basic-world'
+  },
+  {
     state: '/',
     name: 'HOME',
     type: 'link',
     icon: 'basic-accelerator'
+  },{
+    state: '/section1',
+    name: 'ACCOUNT TOOLS',
+    type: 'link',
+    icon: ' '
   },
   {
     state: 'ApiService',
@@ -37,15 +48,13 @@ const MENUITEMS = [
     state: 'Service',
     name: 'SERVICES',
     type: 'link',
-    icon: 'basic-paperplane'
-  },
-  {
+    icon: 'basic-clessidre'
+  },{
     state: 'inbox',
-    name: 'MESSAGES',
+    name: 'INBOX',
     type: 'link',
     icon: 'basic-spread-text-bookmark'
-  },
-  {
+  },{
     state: 'tutorials',
     name: 'INGEGRATION HELP',
     type: 'sub',
@@ -53,7 +62,7 @@ const MENUITEMS = [
     badge: [
       {
         type: 'success',
-        value: '5'
+        value: '3'
       }
     ],
     children: [
@@ -70,14 +79,62 @@ const MENUITEMS = [
         name: 'JAVASCRIPT'
       },
     ]
-  },
-  {
+  },{
+    state: '/section1',
+    name: 'YOUR BUSINESS',
+    type: 'link',
+    icon: ' '
+  },{
+    state: 'transactions',
+    name: 'TRANSACTIONS',
+    type: 'link',
+    icon: 'basic-webpage-txt'
+  },{
+    state: 'custormers',
+    name: 'CUSTORMERS',
+    type: 'link',
+    icon: 'basic-star'
+  },{
+    state: 'income',
+    name: 'INCOMES',
+    type: 'link',
+    icon: 'basic-alarm'
+  },{
+    state: 'transfers',
+    name: 'TRANSFERS',
+    type: 'link',
+    icon: 'basic-upload'
+  },{
+    state: '/section1',
+    name: 'PAYMENTS',
+    type: 'link',
+    icon: ' '
+  },{
+    state: 'invoice',
+    name: 'INVOICES',
+    type: 'link',
+    icon: 'basic-todo'
+  },{
+    state: 'Paymentpages',
+    name: 'Payment Pages',
+    type: 'link',
+    icon: 'basic-spread-text'
+  },{
+    state: 'empty',
+    name: ' ',
+    type: 'link',
+    icon: ' '
+  },{
     state: 'Settings',
     name: 'SETTINGS',
     type: 'link',
-    icon: 'basic-postcard'
-  },
-  {
+    icon: 'basic-gear'
+  },{
+    state: 'trash',
+    name: 'TRASH',
+    type: 'link',
+    icon: 'basic-trashcan-remove'
+  },{
     state: 'components',
     name: 'COMPONENTS',
     type: 'sub',
