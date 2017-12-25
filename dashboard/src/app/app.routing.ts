@@ -49,10 +49,10 @@ export const AppRoutes: Routes = [{
     path: 'Invoices',
     loadChildren: './invoice/invoice.module#InvoiceModule'
   },{
-    path: 'PaymentPageComponent',
+    path: 'PaymentPage',
     loadChildren: './payment-page/payment-page.module#PaymentPageModule'
   },{
-    path: 'TrashComponent',
+    path: 'Trash',
     loadChildren: './trash/trash.module#TrashModule'
   },{
     path: 'Settings',

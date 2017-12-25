@@ -115,7 +115,7 @@ const MENUITEMS = [
     type: 'link',
     icon: 'basic-todo'
   },{
-    state: 'Paymentpages',
+    state: 'PaymentPage',
     name: 'Payment Pages',
     type: 'link',
     icon: 'basic-spread-text'
@@ -130,7 +130,7 @@ const MENUITEMS = [
     type: 'link',
     icon: 'basic-gear'
   },{
-    state: 'trash',
+    state: 'Trash',
     name: 'TRASH',
     type: 'link',
     icon: 'basic-trashcan-remove'
