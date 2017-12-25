@@ -12,7 +12,7 @@ export const AppRoutes: Routes = [{
   }, {
     path: 'inbox',
     loadChildren: './email/email.module#EmailModule'
-  }, {
+  },{
     path: 'components',
     loadChildren: './components/components.module#ComponentsModule'
   },{
@@ -21,6 +21,39 @@ export const AppRoutes: Routes = [{
   },{
     path: 'ApiService',
     loadChildren: './apiservices/apiservices.module#ApiServicesModule'
+  },{
+    path: 'Getstarted',
+    loadChildren: './getstarted/getstarted.module#GetstartedModule'
+  },{
+    path: 'tutorials/php',
+    loadChildren: './php/php.module#PhpModule'
+  },{
+    path: 'tutorials/javascript',
+    loadChildren: './javascript/javascript.module#JavascriptModule'
+  },{
+    path: 'tutorials/python',
+    loadChildren: './python/python.module#PythonModule'
+  },{
+    path: 'Transactions',
+    loadChildren: './transactions/transactions.module#TransactionsModule'
+  },{
+    path: 'Custormers',
+    loadChildren: './custormers/custormers.module#CustormersModule'
+  },{
+    path: 'Income',
+    loadChildren: './incomes/incomes.module#IncomesModule'
+  },{
+    path: 'Transfers',
+    loadChildren: './transfers/transfers.module#TransfersModule' 
+  },{
+    path: 'Invoices',
+    loadChildren: './invoice/invoice.module#InvoiceModule'
+  },{
+    path: 'PaymentPageComponent',
+    loadChildren: './payment-page/payment-page.module#PaymentPageModule'
+  },{
+    path: 'TrashComponent',
+    loadChildren: './trash/trash.module#TrashModule'
   },{
     path: 'Settings',
     loadChildren: './settings/settings.module#SettingsModule'

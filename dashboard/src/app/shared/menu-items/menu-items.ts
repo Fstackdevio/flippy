@@ -22,7 +22,7 @@ export interface Menu {
 
 const MENUITEMS = [
   {
-    state: '/getstarted',
+    state: 'Getstarted',
     name: 'GET STARTED',
     type: 'link',
     icon: 'basic-world'
@@ -85,22 +85,22 @@ const MENUITEMS = [
     type: 'link',
     icon: ' '
   },{
-    state: 'transactions',
+    state: 'Transactions',
     name: 'TRANSACTIONS',
     type: 'link',
     icon: 'basic-webpage-txt'
   },{
-    state: 'custormers',
+    state: 'Custormers',
     name: 'CUSTORMERS',
     type: 'link',
     icon: 'basic-star'
   },{
-    state: 'income',
+    state: 'Income',
     name: 'INCOMES',
     type: 'link',
     icon: 'basic-alarm'
   },{
-    state: 'transfers',
+    state: 'Transfers',
     name: 'TRANSFERS',
     type: 'link',
     icon: 'basic-upload'
@@ -110,7 +110,7 @@ const MENUITEMS = [
     type: 'link',
     icon: ' '
   },{
-    state: 'invoice',
+    state: 'Invoices',
     name: 'INVOICES',
     type: 'link',
     icon: 'basic-todo'
