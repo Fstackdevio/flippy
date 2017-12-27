@@ -8,8 +8,8 @@ import { TrashComponent } from './trash.component';
 import { TrashRoutes } from './trash.routing';
 
 @NgModule({
-  imports: [CommonModule, RouterModule.forChild(TransfersRoutes), NgxChartsModule],
-  declarations: [TransfersComponent]
+  imports: [CommonModule, RouterModule.forChild(TrashRoutes), NgxChartsModule],
+  declarations: [TrashComponent]
 })
 
 export class TrashModule {}

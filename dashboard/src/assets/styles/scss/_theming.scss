@@ -2,7 +2,7 @@
 $light-theme-background: (
   background:       $body-bg,
   header:           white,
-  sidebar:          rgba(51, 51, 51, 1.00),
+  sidebar:          rgba(202, 143, 83, 1),
   brand:            rgba(51, 51, 51, 1.00),
   hover:            rgba(black, 0.04),
   hover-o:          rgba(black, 0.05),
@@ -59,4 +59,37 @@ $dark-theme-foreground: (
 
 .theme-dark {
   @include theme($dark-theme-background, $dark-theme-foreground);
+}
+
+
+//orange Theme
+$orange-theme-background: (
+  background:       #f0ad4e,
+  header:           map_get($mat-grey, 800),
+  sidebar:          rgba(51, 51, 51, 1.00),
+  brand:            rgba(51, 51, 51, 1.00),
+  hover:            rgba(white, 0.04),
+  hover-o:          rgba(white, 0.05),
+  card:             map_get($mat-grey, 800),
+  modal:            map_get($mat-grey, 800),
+  secondary-button: map-get($mat-grey, 800),
+  selected-cell:    $brand-primary,
+  chart-tooltip:    rgba(51, 51, 51, 1.00),
+);
+
+$orange-theme-foreground: (
+  base:             white,
+  header:           rgba(white, 0.7),
+  header-hover:     white,
+  sidebar:          rgba(white,.56),
+  sidebar-hover:    white,
+  brand:            white,
+  divider:          rgba(white, 0.12),
+  disabled:         rgba(white, 0.3),
+  muted-text:       rgba(white, 0.3),
+  chart-grid:       rgba(white, 0.05),
+);
+
+.theme-orange {
+  @include theme($orange-theme-background, $orange-theme-foreground);
 }

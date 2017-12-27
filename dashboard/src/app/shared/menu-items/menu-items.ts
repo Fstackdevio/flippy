@@ -33,7 +33,7 @@ const MENUITEMS = [
     type: 'link',
     icon: 'basic-accelerator'
   },{
-    state: '/section1',
+    state: 'section1',
     name: 'ACCOUNT TOOLS',
     type: 'link',
     icon: ' '
