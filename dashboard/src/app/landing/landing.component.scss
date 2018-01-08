@@ -1,1 +1,40 @@
 @import "../../assets/styles/scss/components/landing";
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.card-block {
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+
+div.form-group {
+    position: relative;
+}
+
+div.form-group label {
+    position: absolute;
+    top: 0;
+    transform: translateY(-54%);
+    left: 14px;
+    padding: 5px 2px;
+}
+
+div.form-group .form-control input {
+    outline: none;
+    opacity: 0;
+}
+
+div.form-group .form-control input[type="text"], div.form-group .form-control input[type="email"], div.form-group .form-control input[type="password"] {
+    margin-top: 10px;
+    width: 100%;
+    float: left;
+    background: #EEF9FE;
+    border: 1px solid #CDDBEF;
+    border-radius: 30px;
+    padding: 7px 10px;
+}

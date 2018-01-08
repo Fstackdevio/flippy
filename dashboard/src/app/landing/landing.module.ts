@@ -6,6 +6,7 @@ import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { LandingComponent } from './landing.component';
 import { LandingRoutes } from './landing.routing';
+import { FormModule } from 'app/form/form.module';
 
 @NgModule({
   imports: [CommonModule, RouterModule.forChild(LandingRoutes), NgbCarouselModule],

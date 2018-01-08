@@ -19,6 +19,10 @@ export class DashboardComponent {
     nodes: any[]
   };
   dateData: any[];
+
+  //Account type
+  type: 'Premium';
+
   // options
   showXAxis = true;
   showYAxis = true;
@@ -59,6 +63,7 @@ export class DashboardComponent {
   gaugeShowAxis = true;
   gaugeValue = 50; // linear gauge value
   gaugePreviousValue = 70;
+
 
   constructor() {
     Object.assign(this, {

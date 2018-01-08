@@ -36,6 +36,39 @@
       margin-bottom: 2rem;
     }
   }
+  .panel-wrap {
+    width: 100%;
+    float: left;
+    position: relative;
+    .panel-box > .form-control label {
+      opacity: 0;
+    }
+    .panel-box:first-child {
+      left: 0;
+      -webkit-transform: translateX(30%) scale(0.8);
+              transform: translateX(30%) scale(0.8);
+      -webkit-animation: box-1--out 0.5s;
+              animation: box-1--out 0.5s;
+      -webkit-transform-origin: top right;
+              transform-origin: top right;
+    }
+  }
+  .panel-box {
+    width: 50%;
+    float: left;
+    z-index: 1;
+    background: pink;
+    position: absolute;
+    padding: 20px;
+    background: #C8DFED;
+    border-radius: 4px;
+    -webkit-transition: all 0.5s;
+            transition: all 0.5s;
+  }
+  .panel-box .active {
+    background: #fff;
+    z-index: 2;
+  }
   .header-flot-section {
     margin-top: -70px;
     .row {
